@@ -22,6 +22,7 @@ Driver attention state classifier/
 ├── camera.py
 ├── data.py
 ├── model.ipynb
+├── requirements.txt
 ├── data/
 │   ├── Driver_drowsiness_dataset/
 │   │   ├── Drowsy/
@@ -43,7 +44,15 @@ Driver attention state classifier/
 Install dependencies:
 
 ```bash
-pip install torch torchvision opencv-python numpy
+pip install -r requirements.txt
+```
+
+Optional (recommended): use a virtual environment first.
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 ## Data Preparation
