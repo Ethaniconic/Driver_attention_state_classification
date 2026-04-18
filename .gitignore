@@ -32,3 +32,5 @@ Thumbs.db
 data/Driver_drowsiness_dataset/
 data/train/
 data/test/
+
+non-drowsy.png

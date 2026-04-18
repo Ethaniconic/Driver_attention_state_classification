@@ -1,4 +1,5 @@
 # Driver Attention State Classifier
+![Driver attention state classifier](non-drowsy.png)
 
 Binary image classification project to detect whether a driver appears drowsy or not drowsy.
 
